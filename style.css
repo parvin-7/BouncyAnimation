@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    width: 100vw;
+    height: 600px;
+    position: relative;
+}
+.box{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    position: absolute;
+    left:20px;
+    bottom: 0%;
+    /* margin-top: 440px;
+    margin-left: 20px; */
+    display: inline-block;
+    animation: BounceAnimation 1s ease-out infinite alternate;
+
+}
+@keyframes BounceAnimation{
+    from{
+        bottom: 0%;
+    }
+    to{
+        bottom: 70%;
+    }
+   
+}
